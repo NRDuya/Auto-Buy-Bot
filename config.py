@@ -1,5 +1,21 @@
+from selenium import webdriver
+
 keys = {
-    "product_url": "https://www.supremenewyork.com/shop/accessories/bfgiovyw7",
+    #product url
+    "supreme_url": "https://www.supremenewyork.com/shop/accessories/k5vm7rdlq",
+    "nike_url": "https://www.nike.com/launch/t/snkrs-classics-1",
+    "adidas_url": "https://www.adidas.com/us",
+
+    #adidas login
+    "adidas_email": "email",
+    "adidas_password": "password",
+
+    #nike login
+    "nike_email": "email",
+    "nike_password": "password",
+
+    #size
+    "shoe_size": 8.5,
 
     #personal info
     "name": "Nathaniel Duya",
@@ -16,3 +32,4 @@ keys = {
     "card_year": 5
 
 }
+
